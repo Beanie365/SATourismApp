@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Addplaces">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Add Place"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/placetxt"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/welcome"
+        android:layout_marginTop="50dp"
+       android:hint="Province"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="15dp" />
+    <EditText
+        android:id="@+id/attracttxt"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/placetxt"
+        android:layout_marginTop="50dp"
+        android:hint="Atttraction"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="15dp" />
+    <Button
+        android:id="@+id/addbtn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/attracttxt"
+        android:text="Add"/>
+
+</RelativeLayout>
